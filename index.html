@@ -2,211 +2,12 @@
 layout: default
 title: Squarebox &gt; home
 section_id: home
-
-services:
-  -
-    - title: Effective Partnering
-      icon: layout
-      desc:
-        We focus on listening, and a collaborative and inclusionary approach.
-      color:
-    - title: Great Ideas
-      icon: layout
-      desc:
-        We creatively utilize structured finance and other tools to address community goalseos.
-      color:
-    - title: Exceptional Planning/Design
-      icon: layout
-      desc:
-        We provide leadership in sustainable, walkable, asset-based development.
-      color:
-  -
-    - title: Strong Teams
-      icon: layout
-      desc:
-        Bywater offers cultivation of high-performing teams that include local professionals.
-      color: sky
-    - title: Informed Decisions
-      icon: layout
-      desc:
-        We specialize in information and data-driven analysis and decision-making.
-      color: sky
-    - title: Meaningful Goals
-      icon: layout
-      desc:
-        We aim for achievement of outcomes that make communities demonstrably better.
-      color: sky
-
-
-
-milestones:
-  - from: 0
-    to: 69
-    title: Projects completed
-  - from: 0
-    to: 726
-    title: Cups of coffee offered
-  - from: 0
-    to: 59
-    title: Happy clients
-  - from: 0
-    to: 7
-    title: Numerous awards
-
-bars:
-  - title: Community Engagement
-    percent: 84
-  - title: Developement
-    percent: 95
-  - title: Rehab
-    percent: 70
-  - title: Satisfaction
-    percent: 100%
-
-members:
-  - image: david-dodson.jpg
-    name: David Dodson
-    position: CEO
-    desc:
-      Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum.
-    socials:
-      - name: twitter
-        link: #
-        color: sky
-      - name: facebook
-        link: #
-        color: sky
-      - name: vimeo
-        link: #
-        color: sky
-      - name: mail
-        link: #
-        color: sky
-  - image: aaron-burnett.jpg
-    name: Aaron Burnett
-    position: President
-    desc:
-      Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum.
-    socials:
-      - name: twitter
-        link: #
-        color: sky
-      - name: facebook
-        link: #
-        color: sky
-  - image: carl-shepard-2.jpg
-    name: Carl Shepard
-    position: Development Coordinator
-    desc:
-      Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum.
-    socials:
-      - name: mail
-        link: #
-        color: sky
-  - image: elizabeth-beckerle.jpg
-    name: Elizabeth Beckerle
-    position: Development Coordinator
-    desc:
-      Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum.
-    socials:
-      - name: twitter
-        link: #
-        color: sky
-      - name: vimeo
-        link: #
-        color: sky
-      - name: mail
-        link: #
-        color: sky
-
 ---
 
 {% include slider.html %}
 
-{% include whys.html %}
+{% include awards.html %}
 
-<div class='full'>
-  <div class='row'>
-    <div class='special-title centered-text'>
-      <i class='icon-star'></i>
-      <h2>Portfolio</h2>
-      <p>Our best and featured works so far</p>
-      <p class='shortline'></p>
-    </div>
-  </div>
-</div>
-
-<ul class='gallery small-block-grid-2 medium-block-grid-3 large-block-grid-4'>
-  {% for work in site.portfolio %}
-    <li>
-      <a>
-        <img src='/images/{{ work.image }}'>
-        <div class='overlay'>
-          <div class='thumb-info'>
-            <h3>{{ work.title }}</h3>
-            <p>{{ work.category }}</p>
-          </div>
-        </div>
-      </a>
-    </li>
-  {% endfor %}
-</ul>
-
-<div class='full dark-blue no-padding'>
-  <div class='two spacing'></div>
-  <div class='row'>
-    <div class='call-to-action light'>
-      <div class='medium-9 large-9 columns'>
-        <p class='left'>A Creative, Modern, Clean &amp; Responsive Template, what are you waiting for?</p>
-      </div>
-      <div class='medium-3 large-3 columns'>
-        <a class='button' href='#'>Purchase Now</a>
-      </div>
-    </div>
-  </div>
-  <div class='two spacing'></div>
-</div>
-
-
-<div class='full white'>
-  <div class='row'>
-    <div class='special-title centered-text'>
-      <i class='icon-map'></i>
-      <h2>Core values</h2>
-      <p>We are passionate developers</p>
-      <p class='shortline'></p>
-    </div>
-    <div class='two spacing'></div>
-  </div>
-
-  {% for row in page.services %}
-    <div class="row">
-      {% for service in row %}
-        <div class='medium-4 large-4 columns icon-text'>
-          <i class='icon-{{service.icon}} {{service.color}}'></i>
-          <h3>{{service.title}}</h3>
-          <p>{{service.desc}}</p>
-        </div>
-      {% endfor %}
-    </div>
-    {% unless forloop.last %}
-      <div class="spacing"></div>
-    {% endunless %}
-  {% endfor %}
-</div>
-
-<div class='full bg-1'>
-  <div class='row'>
-    {% for milestone in page.milestones %}
-      <div class='medium-3 large-3 columns'>
-        <div class='milestone boxed light'>
-          <strong data-from='{{milestone.from}}' data-to='{{milestone.to}}'></strong>
-          <span>{{milestone.title}}</span>
-        </div>
-      </div>
-    {% endfor %}
-  </div>
-</div>
 
 
 <div class='full light-sky'>
@@ -224,13 +25,11 @@ members:
     <div class='medium-6 large-6 columns'>
       <p>
         <span class='drop-letters'>We</span>
-        are est unde inventore sed amet est in voluptas cum ipsa ut sunt minus. Nihil quia et omnis blanditiis eius suscipit quos repudiandae. Nihil quia et omnis blanditiis eius suscipit quos. Est unde inventore sed amet est in voluptas cum ipsa ut sunt minus. Nihil quia et omnis blanditiis eius suscipit quos repudiandae.
-      </p>
-      <p>Est unde inventore sed amet est in voluptas cum ipsa ut sunt minus. Nihil quia et omnis blanditiis eius suscipit quos repudiandae. Nihil quia et omnis blanditiis eius suscipit quos. Nihil quia et omnis blanditiis eius suscipit quos.</p>
+        specialize in developing, planning, financing, and implementing transformative affordable housing developments throughout the mid-western and southern regions of the United States. We cultivate partnerships with communities, working together to achieve local community development goals through our focus on the preservation and re-positioning of existing affordable housing—and the development of new affordable and mixed-income housing for families and seniors. The Bywater Team possesses a wide range of experience, talent, and dedication in all aspects of the affordable housing development industry. Utilizing our skills in structured finance, project planning, construction oversight, and asset management—along with a diligent work ethic—we strive to undertake developments that become real assets to the communities in which they are located.</p>
     </div>
     <div class='medium-6 large-6 columns'>
       <ul class='bars'>
-        {% for bar in page.bars %}
+        {% for bar in site.data.bar-chart %}
           <li>
             <h4>
               {{bar.title}}
@@ -245,57 +44,45 @@ members:
 </div>
 
 
-<div class='members'>
-  <div class='full light-sky no-padding'>
-    <div class='row'>
-      {% for member in page.members %}
-        {% if forloop.first %}
-          {% assign active_class = "active" %}
-        {% else %}
-          {% assign active_class = "" %}
-        {% endif %}
-        <div class='medium-3 large-3 columns'>
-          <div class='member centered-text {{active_class}}' data-target='#member-{{forloop.index}}'>
-            <img src='/images/{{member.image}}'>
-            <h3>{{member.name}}</h3>
-            <p class='position'>{{member.position}}</p>
-            <p class='active-line'></p>
-          </div>
-        </div>
-      {% endfor %}
+{% include staff.html %}
+
+
+{% include thanks.html %}
+
+
+<div class='full dark-blue no-padding'>
+  <div class='two spacing'></div>
+  <div class='row'>
+    <div class='call-to-action light'>
+      <div class='medium-9 large-9 columns'>
+        <p class='left'>A Creative, Modern, Clean &amp; Responsive Template, what are you waiting for?</p>
+      </div>
+      <div class='medium-3 large-3 columns'>
+        <a class='button' href='mailto:aaron@bywaterdevelopment.com'>Contact BYWATER Now</a>
+      </div>
     </div>
   </div>
-  <div class='full white'>
-    <div class='row'>
-      {% for member in page.members %}
-        {% if forloop.first %}
-          {% assign active_class = "active" %}
-        {% else %}
-          {% assign active_class = "" %}
-        {% endif %}
-        <div class='member-intro {{active_class}}' id='member-{{forloop.index}}'>
-          <div class='medium-8 large-8 columns'>
-            <p>{{member.desc}}</p>
-          </div>
-          <div class='medium-4 large-4 columns'>
-            <div class='socials'>
-              {% for social in member.socials %}
-                <a href='{{social.link}}'>
-                  <i class='icon-{{social.name}} {{social.color}}'></i>
-                </a>
-              {% endfor %}
-            </div>
-          </div>
-        </div>
-      {% endfor %}
+  <div class='two spacing'></div>
+</div>
 
-    </div>
+
+{% include services.html %}
+
+<div class='full bg-1'>
+  <div class='row'>
+    {% for stat in site.data.stats %}
+      <div class='medium-3 large-3 columns'>
+        <div class='stat boxed light'>
+          <strong data-from='{{stat.from}}' data-to='{{stat.to}}'></strong>
+          <span>{{stat.title}}</span>
+        </div>
+      </div>
+    {% endfor %}
   </div>
 </div>
 
+
+
 {% include testimonials.html bg="bg-2" %}
-
-{% include clients.html %}
-
 
 {% include get-in-touch.html %}

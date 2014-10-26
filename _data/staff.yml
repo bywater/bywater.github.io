@@ -1,0 +1,55 @@
+staff:
+  - image: david-dodson.jpg
+    name: David Dodson
+    position: CEO
+    desc:
+      Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum.
+    socials:
+      - name: twitter
+        link: #
+        color: sky
+      - name: facebook
+        link: #
+        color: sky
+      - name: vimeo
+        link: #
+        color: sky
+      - name: mail
+        link: #
+        color: sky
+  - image: aaron-burnett.jpg
+    name: Aaron Burnett
+    position: President
+    desc:
+      Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum.
+    socials:
+      - name: twitter
+        link: #
+        color: sky
+      - name: facebook
+        link: #
+        color: sky
+  - image: carl-shepard-2.jpg
+    name: Carl Shepard
+    position: Development Coordinator
+    desc:
+      Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum.
+    socials:
+      - name: mail
+        link: #
+        color: sky
+  - image: elizabeth-beckerle.jpg
+    name: Elizabeth Beckerle
+    position: Development Coordinator
+    desc:
+      Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum.
+    socials:
+      - name: twitter
+        link: #
+        color: sky
+      - name: vimeo
+        link: #
+        color: sky
+      - name: mail
+        link: #
+        color: sky

@@ -5,6 +5,7 @@
     <p>A creative responsive theme.</p>
     <div class='two spacing'></div>
     <a class='button boxed'>View Features</a>
+
 - image: neighborhood-01.jpg
   desc_location: right
   desc:
@@ -12,6 +13,7 @@
     <p>Focus on every detail element.</p>
     <div class='two spacing'></div>
     <a class='button boxed'>Learn More</a>
+
 - image: slide-3.jpg
   desc_location: left
   desc:
@@ -19,6 +21,7 @@
     <p>Let users access the theme with all devices</p>
     <div class='two spacing'></div>
     <a class='button boxed'>Learn More</a>
+
 - image: slide-4.jpg
   desc_location: right
   desc:
@@ -26,6 +29,7 @@
     <p>Almost every element could be customized</p>
     <div class='two spacing'></div>
     <a class='button boxed'>Learn More</a>
+
 - image: slide-5.jpg
   desc_location: center
   desc:

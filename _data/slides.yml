@@ -5,6 +5,7 @@
     <p>We only build what you will be proud of</p>
     <div class='two spacing'></div>
     <a class='button boxed'>View Features</a>
+
 - image: stl.jpg
   desc_location: right
   desc:
@@ -12,6 +13,7 @@
     <p>We specialize in preserving historic neighborhoods</p>
     <div class='two spacing'></div>
     <a class='button boxed'>Learn More</a>
+
 - image: group-3.jpg
   desc_location: center
   desc:

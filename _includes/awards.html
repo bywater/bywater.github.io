@@ -1,0 +1,27 @@
+<div class='full'>
+  <div class='row'>
+    <div class='special-title centered-text'>
+      <i class='icon-star'></i>
+      <h2>Awards</h2>
+      <p>Projects developed by the Bywater principals have been recognized by our industry peers through various prestigious awards and recognitions, as follows:</p>
+      <p class='shortline'></p>
+    </div>
+  </div>
+</div>
+
+<ul class='w75 gallery small-block-grid-2 medium-block-grid-3 large-block-grid-4'>
+  {% for award in site.data.awards %}
+    <li>
+      <a>
+        <img src='/images/{{ award.image }}'>
+        <div class='overlay'>
+          <div class='thumb-info'>
+            <h3>{{ award.agency }}</h3>
+            <p>{{ award.award }}</p>
+            <p>{{ award.year }}</p>
+          </div>
+        </div>
+      </a>
+    </li>
+  {% endfor %}
+</ul>

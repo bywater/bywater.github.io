@@ -6,7 +6,7 @@ $(document).foundation();
 (function($) {
   $(document).ready(function() {
 
-    $('.milestone strong').appear(function() {
+    $('.stat strong').appear(function() {
       $(this).countTo(100);
     });
 
@@ -23,17 +23,17 @@ $(document).foundation();
       });
     });
 
-    $(".members").each(function() {
+    $(".staff").each(function() {
 
-      var members = $(this);
+      var staff = $(this);
 
       $(this).find('.member').each(function() {
         $(this).click(function() {
-          $(members).find('.member').removeClass('active');
+          $(staff).find('.member').removeClass('active');
           $(this).addClass('active');
           var target = $(this).attr('data-target');
-          // console.log($(members).find('.member-intro'));
-          $(members).find('.member-intro').removeClass('active');
+          // console.log($(staff).find('.member-intro'));
+          $(staff).find('.member-intro').removeClass('active');
           $(target).addClass('active');
         });
       });
