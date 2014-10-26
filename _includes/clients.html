@@ -1,0 +1,18 @@
+<div class='full no-padding'>
+  <div class='spacing'></div>
+  <div class='row'>
+      <div class='large-10 small-centered columns'>
+        <div class='special-title centered-text'>
+          <i class='icon-mail'></i>
+          <h2>Awards</h2>
+          <p>Projects developed by the Bywater principals have been recognized by our industry peers through various prestigious awards and recognitions, as follows:</p>
+        </div>
+      </div>
+    {% for client in site.data.clients %}
+      <div class='small-6 large-2 columns'>
+        <img src='/images/{{client.image}}'>
+      </div>
+    {% endfor %}
+  </div>
+  <div class='spacing'></div>
+</div>

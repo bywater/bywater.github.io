@@ -1,0 +1,153 @@
+# -----------------------------------------------------------------------------
+# SITE PERSONALIZATION
+# -----------------------------------------------------------------------------
+
+name: Bywater Developement Group
+# This text will be used on the homepage to personalize the name of your site
+# This will also act as a text link that always points to the homepage
+
+tagline: Bywater Development Group, LLC is a fresh entry into the affordable housing and community development industry
+# This will show up in the header next to the site logo
+
+
+# -----------------------------------------------------------------------------
+# SEO SETTINGS
+# -----------------------------------------------------------------------------
+
+title: Bywater Developement Group | We specialize in affordable housing and community development
+# SEO - This will be used for the title text on the homepage
+
+description: Bywater Development Group, LLC is a fresh entry into the affordable housing and community development industry
+# SEO - This will be used for the meta description on the homepage
+
+google_analytics: UA-24190198-36
+# This will enable Google Analytics to track your site
+
+
+
+
+# -----------------------------------------------------------------------------
+# SITE CONFIGURATION
+# -----------------------------------------------------------------------------
+
+url: http://bywater.github.io
+# http://repoName.github.io
+# http://www.yourDomainName.com
+# This will confiure your sitemap.xml and RSS feed
+
+baseurl: ""
+# use this configuraiton for a "Username" or "Organization" site
+# ex: http://userName.github.io
+
+# else
+
+# baseurl: "/repoName"
+# use this configuraiton for a "Project" site:
+# ex: http://userName.github.io/REPO-NAME
+
+# ! Ream more: http://blog.parkermoore.de/2014/04/27/clearing-up-confusion-around-baseurl/
+
+
+timezone: America/Chicago
+# Set the timezone. ! Read more: http://jekyllrb.com/docs/configuration/
+
+
+
+
+# markdown: redcarpet
+#pygments: true
+
+excerpt_separator: <!--more-->
+paginate: 3
+paginate_path: "blog/page:num"
+
+
+
+
+
+
+# -----------------------------------------------------------------------------
+# Sass SETTINGS
+# -----------------------------------------------------------------------------
+
+sass:
+  sass_dir: _scss
+  # The load path for Sass imports. This folder must only contain imports!
+  # Read more: http://jekyllrb.com/docs/assets/
+
+  style: :expanded
+    # Sass output settings. ! Read more:
+    # http://web-design-weekly.com/2014/06/15/different-sass-output-styles/
+
+    # optoins:
+      #:nested
+      #:expanded
+      #:compact
+      #:compressed #minified
+
+
+
+# -----------------------------------------------------------------------------
+# SAFE PLUGINS allowed by gitHub pages
+# -----------------------------------------------------------------------------
+
+gems:
+# Plugin list
+  - jemoji # Emoji please!
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  # - jekyll-mentions
+  - jekyll-redirect-from
+
+
+# -----------------------------------------------------------------------------
+# PERMALINK SETTINGS
+# -----------------------------------------------------------------------------
+
+permalink: /:title/
+# These may only apply to posts, not to pages, collections or static files.
+# ! Read more: http://jekyllrb.com/docs/permalinks/
+
+
+# -----------------------------------------------------------------------------
+# CONVERSION SETTINGS
+# -----------------------------------------------------------------------------
+
+highlighter: pygments
+# Pygments is a generic syntax highlighter for general use in all kinds of software such as forum systems, wikis or other applications that need to prettify source code.
+
+# Read more: http://pygments.org/
+
+markdown: kramdown
+# kramdown (sic, not Kramdown or KramDown, just kramdown) is a free MIT-licensed Ruby library for parsing and converting a superset of Markdown.
+
+# Read more: http://kramdown.gettalong.org/
+
+
+# -----------------------------------------------------------------------------
+# SAFE MODE
+# -----------------------------------------------------------------------------
+
+safe: true
+# Use "true" if you intend to let gitHub automatically build your pages
+
+# GitHub Pages is powered by Jekyll, however all Pages sites are generated using the --safe option to disable custom plugins for security reasons. Unfortunately, this means your plugins won’t work if you’re deploying to GitHub Pages.
+
+#You can still use GitHub Pages to publish your site, but you’ll need to convert the site locally and push the generated static files to your GitHub repository instead of the Jekyll source files.
+
+# ! Read more: http://jekyllrb.com/docs/plugins/
+
+
+# -----------------------------------------------------------------------------
+# PRODUCITON BUILD SETTINGS
+# -----------------------------------------------------------------------------
+
+exclude:
+# Exclude (ignore) these files in your Producion build
+
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+
+
+# Check GitHub Dependency Verison: https://pages.github.com/versions/

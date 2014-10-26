@@ -1,0 +1,65 @@
+// Typeface(s) and Fonts
+//
+$sans: "klavika-web", sans-serif;
+$condensed: "klavika-web-disp-cond", sans-serif;
+//$monospace: "Courier New", monospace;
+//$serif       // "Source Serif Pro"
+//$slab        // "Museo Slab"
+$cursive: "learning-curve";
+$thick: "klavika-web-display";       // "Quatro"
+
+
+// Weight(s)
+// Related to KLAVIKA (Typekit)
+//
+$hairline:200;
+$light: 300;
+$normal: 400;
+$bold: 700;
+$heavy:900;
+
+
+
+// Brand Colors
+//
+$water: #2b3c8f;
+$sky: #00c6e8;
+$dew: #daf519;
+$berry: #f52619;
+
+
+
+// General Colors
+//
+$white: #fff;
+$black: #000;
+$charcoal: #333;
+$graphite: #ccc;
+$silver: #f5f5f5;
+$dirt: #e8e8e2;
+//$red: #f00;
+//$yellow: #ff0;
+$gold: #f1c40f;
+
+// Apply color to component
+//
+//$brandmark-color: $red;
+$text-link-color: $sky;
+$text-link-color-hover: $sky;
+
+$nav-link-color: $sky;
+$button-color: $sky;
+$error-text-color: $berry;
+$selection-color: $sky;
+$codeColor : $graphite;
+
+// Utilities
+//
+$default-borderRadius: 5px;
+
+
+
+// Place Holders
+%box-shadow-bottom {
+    box-shadow: 0 1px 0 $graphite;
+}
