@@ -148,9 +148,10 @@ h1, h2, h3, h4 {
   background-size: cover;
 }
 
-.bg-3 {
-  background: url(../images/who-we-are-bg.jpg) center center no-repeat;
+.bg-map {
+  background: url(../images/map.png) center center no-repeat;
   background-size: cover;
+  height: 500px;
 }
 
 .bg-4 {
@@ -394,7 +395,7 @@ p.quote {
   padding: 20px 50px;
   font-family: $sans, sans-serif;
   font-style: italic;
-  font-size: 18px;
+  font-size: 1.25em;
   margin-bottom: 30px;
 }
 
