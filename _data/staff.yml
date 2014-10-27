@@ -3,7 +3,7 @@ staff:
     name: David Dodson
     position: CEO
     desc:
-      Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum.
+      Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu.
     socials:
       - name: twitter
         link: #
@@ -15,20 +15,22 @@ staff:
         link: #
         color: sky
       - name: mail
-        link: #
+        link: mailto:elizabeth@bywaterdevelopment.com
         color: sky
+
   - image: aaron-burnett.jpg
     name: Aaron Burnett
     position: President
     desc:
-      Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum.
+      Cardinals arch gooey butter cake south grand muny nelly mississippi river, CWE barnes-jewish hospital toasted ravioli anheuser-busch neon sign. Lindbergh St. Louis science center and zoo turtle park soulard bowling riverfront times. Delmar loop blueberry hill tivoli COCA moonrise hotel RAC answers.com washington university forest park spanish pavilion art hill. Crown candy OZZY smith schnucks, straubs the hill kingshighway fred bird choutteau SLU blues monsanto rams. Galleria checker dome metrolink KDHX webster groves post-dispatch clayton UMSL university city maplewood. Ted Drews, frozen custard star clipper bread co. — square chestnut highway 40!
     socials:
       - name: twitter
         link: #
         color: sky
-      - name: facebook
-        link: #
+      - name: mail
+        link: mailto:elizabeth@bywaterdevelopment.com
         color: sky
+
   - image: carl-shepard-2.jpg
     name: Carl Shepard
     position: Development Coordinator
@@ -36,13 +38,14 @@ staff:
       Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum.
     socials:
       - name: mail
-        link: #
+        link: mailto:carl@bywaterdevelopment.com
         color: sky
+
   - image: elizabeth-beckerle.jpg
     name: Elizabeth Beckerle
     position: Development Coordinator
     desc:
-      Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum.
+      Bushwick fanny pack high life wolf single-origin coffee american apparel, cred twee gluten-free mixtape mlkshk ethical carles Austin direct trade. Etsy banksy biodiesel ethnic, cardigan chambray lomo four loko single-origin coffee. Wes anderson dreamcatcher chillwave whatever, before they sold out master cleanse polaroid fixie skateboard yr. Mcsweeneys PBR typewriter banksy wes anderson helvetica. Synth sriracha salvia, selvage pour-over 3 wolf moon 8-bit cosby sweater street art swag. Artisan echo park shoreditch, semiotics iphone dreamcatcher farm-to-table pinterest flexitarian cred ennui irony bicycle rights. Narwhal whatever etsy retro, kogi yr salvia fixie pork belly master cleanse wolf ethical PBR VHS.
     socials:
       - name: twitter
         link: #
@@ -51,5 +54,5 @@ staff:
         link: #
         color: sky
       - name: mail
-        link: #
+        link: mailto:elizabeth@bywaterdevelopment.com
         color: sky

@@ -2,7 +2,7 @@
 layout: post
 title:  "Design need to be better"
 date:   2014-05-05 20:37:53 +0800
-author: Andy Budd
+author: Elizabeth Beckerle
 ---
 
 ![computers](/images/children.jpg)

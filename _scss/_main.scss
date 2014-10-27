@@ -24,6 +24,13 @@
     width:75%;
 }
 
+.center {
+    margin: 0 auto;
+}
+
+.em3 {
+    font-size: 3em;
+}
 
 h1, h2, h3, h4, h5, h6 { font-family: $condensed; font-weight: $bold; }
 
@@ -63,15 +70,15 @@ h1, h2, h3, h4 {
 }
 
 .dark-blue {
-  background: #3d5766;
+  background: $water;
 }
 
 .light-sky {
-  background: #fef6df;
+  background: $dirt;
 }
 
 .light-grey {
-  background: #e8e8e4;
+  background: $silver;
 }
 
 .spacing {
@@ -132,7 +139,7 @@ h1, h2, h3, h4 {
 }
 
 .bg-1 {
-  background: url(../images/bg-1.jpg) center center no-repeat;
+  background: url(../images/neighborhood-01.jpg) center center no-repeat;
   background-size: cover;
 }
 

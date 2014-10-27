@@ -2,7 +2,7 @@
 layout: post
 title:  "Great quality means a lot to us"
 date:   2014-05-05 20:37:53 +0800
-author: Andy Budd
+author: Carl Shepard
 ---
 
 ![computers](/images/blog-people.jpg)

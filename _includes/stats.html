@@ -1,0 +1,12 @@
+<div class='full bg-1'>
+  <div class='row'>
+    {% for stat in site.data.stats %}
+      <div class='medium-3 large-3 columns'>
+        <div class='stat boxed light'>
+          <strong data-from='{{stat.from}}' data-to='{{stat.to}}'></strong>
+          <span>{{stat.title}}</span>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
