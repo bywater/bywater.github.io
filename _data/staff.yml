@@ -1,58 +1,28 @@
 staff:
-  - image: david-dodson.jpg
-    name: David Dodson
+  - name: David Dodson
+    image: david-dodson.jpg
     position: CEO
-    desc:
-      Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu.
-    socials:
-      - name: twitter
-        link: #
-        color: sky
-      - name: facebook
-        link: #
-        color: sky
-      - name: vimeo
-        link: #
-        color: sky
-      - name: mail
-        link: mailto:elizabeth@bywaterdevelopment.com
-        color: sky
+    desc: |
+      Over the course of David’s 30+ year career in affordable housing and community development, he has worked in the non-profit and private sectors, and has acted as a development, financing, or program consultant to a variety of  non-profit, for-profit, and governmental entities, including local CDCs, private developers, municipal and county governments, financial institutions, and investor groups.  During the 11 years prior to starting Bywater, David was the Deputy Director and Chief Operating Officer of Regional Housing & Community Development Alliance, the St. Louis Region’s premier non-profit community development and technical assistance organization.  I this role, David led the organization’s strategic planning, managed the professional staff, and oversaw the development and operation of $150 million in redevelopment in the St. Louis region.  David has worked on affordable housing developments in Missouri, Illinois, Kansas, Nebraska, Texas, Louisiana, Indiana, Oklahoma, Tennessee, Wisconsin, and Kentucky.
+    email: david@bywaterdevelopment.com
 
-  - image: elizabeth-beckerle.jpg
-    name: Elizabeth Beckerle
+  - name: Elizabeth Beckerle
+    image: elizabeth-beckerle.jpg
     position: Development Coordinator
-    desc:
-      Bushwick fanny pack high life wolf single-origin coffee american apparel, cred twee gluten-free mixtape mlkshk ethical carles Austin direct trade. Etsy banksy biodiesel ethnic, cardigan chambray lomo four loko single-origin coffee. Wes anderson dreamcatcher chillwave whatever, before they sold out master cleanse polaroid fixie skateboard yr. Mcsweeneys PBR typewriter banksy wes anderson helvetica. Synth sriracha salvia, selvage pour-over 3 wolf moon 8-bit cosby sweater street art swag. Artisan echo park shoreditch, semiotics iphone dreamcatcher farm-to-table pinterest flexitarian cred ennui irony bicycle rights. Narwhal whatever etsy retro, kogi yr salvia fixie pork belly master cleanse wolf ethical PBR VHS.
-    socials:
-      - name: twitter
-        link: #
-        color: sky
-      - name: vimeo
-        link: #
-        color: sky
-      - name: mail
-        link: mailto:elizabeth@bywaterdevelopment.com
-        color: sky
+    desc: |
+      Elizabeth comes to Bywater with a background in architecture, construction, and community development.  She earned a Master’s of Architecture from the University of Kansas where she spent her ultimate program year as part of an intensive design-build studio designing, budgeting, and constructing an affordable, sustainable house in Kansas City, KS.  She then moved to rural West Virginia with the AmeriCorps national service program where she volunteered as a community coordinator and historic preservationist.  She brings a dynamic set of skills and a passion for strengthening communities to the Bywater team.
+    email: elizabeth@bywaterdevelopment.com
 
-  - image: carl-shepard-2.jpg
-    name: Carl Shepard
+  - name: Carl Shepard
+    image: carl-shepard-2.jpg
     position: Development Coordinator
-    desc:
-      Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum Unde labore corporis nam dignissimos tenetur vero enim. Eligendi est quam et in recusandae ratione facilis vel iste est rerum.
-    socials:
-      - name: mail
-        link: mailto:carl@bywaterdevelopment.com
-        color: sky
+    desc: |
+      Carl brings to Bywater a proven background in management along with superb organizational skills. He graduated from Webster University with a bachelor's degree in Business Management and also has a very solid set of professional experiences.  For over five years he was a Firefighter for the Town of Vail, CO.  Through this he developed a strong work ethic, an acute sense of personal responsibility, and the high value of being a contributing part of a team that works under immense pressures. In addition, Carl also brings over ten years of experience in retail management, which equips him to be an effective leader and coordinator of Bywater’s projects and activities.  Carl’s diverse set of previous career experiences and educational track make him a valuable member of the Bywater team and enables the organization to manage the complicated details of developing strong communities.
+    email: carl@bywaterdevelopment.com
 
-  - image: aaron-burnett.jpg
-    name: Aaron Burnett
+  - name: Aaron Burnett
+    image: aaron-burnett.jpg
     position: President
-    desc:
-      Cardinals arch gooey butter cake south grand muny nelly mississippi river, CWE barnes-jewish hospital toasted ravioli anheuser-busch neon sign. Lindbergh St. Louis science center and zoo turtle park soulard bowling riverfront times. Delmar loop blueberry hill tivoli COCA moonrise hotel RAC answers.com washington university forest park spanish pavilion art hill. Crown candy OZZY smith schnucks, straubs the hill kingshighway fred bird choutteau SLU blues monsanto rams. Galleria checker dome metrolink KDHX webster groves post-dispatch clayton UMSL university city maplewood. Ted Drews, frozen custard star clipper bread co. — square chestnut highway 40!
-    socials:
-      - name: twitter
-        link: #
-        color: sky
-      - name: mail
-        link: mailto:elizabeth@bywaterdevelopment.com
-        color: sky
+    desc: |
+      Aaron Burnett is one of the founding members of Bywater Development Group.  Aaron possesses 15 years’ experience in housing and community development, with special expertise in structured finance.  Aaron’s has substantial experience utilizing Affordable Housing Tax Credits, Historic Rehabilitation Tax Credits, and a variety of other federal, state, and local funding sources, including a variety of state tax credits,  Community Development Block Grant, and HOME Investment Partnership Program funds.
+    email: aaron@bywaterdevelopment.com

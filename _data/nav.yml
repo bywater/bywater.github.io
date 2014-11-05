@@ -14,18 +14,18 @@
   path: membership.html
   section_id: membership
 
-- name: Portfolio
-  path: portfolio.html
-  section_id: portfolio
-  children:
-    - name: Portfolio
-      path: portfolio.html
-    - name: Portfolio single
-      path: portfolio-item.html
+- name: Developments
+  path: developments.html
+  section_id: developments
+  # children:
+  #   - name: Developments
+  #     path: developments.html
+  #   - name: Developments single
+  #     path: developments-item.html
 
-- name: Blog
-  path: blog/
-  section_id: blog
+# - name: Blog
+#   path: blog/
+#   section_id: blog
 
 - name: Contact
   path: contact.html

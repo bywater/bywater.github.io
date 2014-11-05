@@ -1,0 +1,15 @@
+<ul class='gallery small-block-grid-2 medium-block-grid-3 large-block-grid-4'>
+  {% for dev in site.data.developments %}
+    <li>
+      <a>
+        <img src='/images/{{ dev.image }}'>
+        <div class='overlay'>
+          <div class='thumb-info'>
+            <h3>{{ dev.title }} - {{ dev.location }}</h3>
+            <p>{{ dev.desc }}</p>
+          </div>
+        </div>
+      </a>
+    </li>
+  {% endfor %}
+</ul>

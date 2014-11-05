@@ -1,0 +1,22 @@
+<div class='full'>
+  <div class='row'>
+    <div class='special-title centered-text'>
+      <i class='icon-star'></i>
+      <h2>{{ page.title }}</h2>
+      <p>{{ page.subtitle }}</p>
+      <p class='shortline'></p>
+    </div>
+    <div class='two spacing'></div>
+  </div>
+    <div class="row">
+        <div class='medium-6 large-8 center'>
+            {{ content }}
+        </div>
+        <ol class='medium-6 large-8 center'>
+            {% for dev in site.data.developments %}
+                <li><span class="bold">{{ dev.title }}</span> ({{ dev.location }}) - {{ dev.desc }}</li>
+                <div class='two spacing'></div>
+            {% endfor %}
+        </ol>
+    </div>
+</div>

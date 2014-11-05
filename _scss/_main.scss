@@ -20,10 +20,16 @@
 }
 
 li.awardBlock {
-    background-color: $gold;
-    border: 1px solid $silver;
-    padding: .5em;
-    text-align: center;
+    //background-color: $gold;
+    //border: 1px solid $silver;
+    //box-shadow: 0 1px 0 $graphite;
+    list-style: none;
+    //padding: .5em;
+    //text-align: center;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 .w75 {
@@ -348,12 +354,25 @@ h1, h2, h3, h4 {
   letter-spacing: 1px;
 }
 
+.graphite {
+    background-color: $graphite;
+}
+
+.silver {
+    background-color: $silver;
+}
+
+.white {
+    background-color: $white;
+}
+
 .staff.active p.active-line {
-  height: 4px;
+  height: 10px;
   background: $sky;
   position: relative;
   margin: 0;
 }
+
 
 .staff-intro {
   display: none;

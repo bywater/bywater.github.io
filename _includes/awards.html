@@ -9,12 +9,14 @@
   </div>
 </div>
 
-<ul class='w75 gallery small-block-grid-1 medium-block-grid-1 large-block-grid-3'>
+<ul class='w75'>
   {% for award in site.data.awards %}
     <li class="awardBlock">
-        <h3>{{ award.agency }}</h3>
-        <p>{{ award.award }}</p>
-        <p>{{ award.year }}</p>
+        <p>
+            <i class="icon-trophy"></i> - {{ award.year }} -
+            <span class="bold">{{ award.agency }}</span>
+            {{ award.award }}
+        </p>
     </li>
   {% endfor %}
 </ul>
