@@ -119,7 +119,9 @@ sass:
 gems:
 # Plugin list
   - jemoji # Emoji please!
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-sitemap
+  # Create a sitemap using the official Jekyll sitemap gem
+  # If the sitemap.xml doesn't generate in the \_site folder ensure \_config.yml doesn't have safe: true. That prevents all plugins from working.
   # - jekyll-mentions
   - jekyll-redirect-from
 
@@ -152,10 +154,10 @@ markdown: kramdown
 # SAFE MODE
 # -----------------------------------------------------------------------------
 
-safe: true
+safe: false
 # Use "true" if you intend to let gitHub automatically build your pages
 
-# GitHub Pages is powered by Jekyll, however all Pages sites are generated using the --safe option to disable custom plugins for security reasons. Unfortunately, this means your plugins won’t work if you’re deploying to GitHub Pages.
+# GitHub Pages is powered by Jekyll, however all Pages in the site are generated using the --safe option to disable custom plugins for security reasons. Unfortunately, this means your plugins won’t work if you’re deploying to GitHub Pages.
 
 #You can still use GitHub Pages to publish your site, but you’ll need to convert the site locally and push the generated static files to your GitHub repository instead of the Jekyll source files.
 

@@ -1,27 +1,17 @@
-- agency: St. Louis Landmarks Association
-  award: Most Enhanced Award for Excellence in Historic Preservation
-  year: 2014
-  image: award-landmarks.png
-
-- agency: U.S. Environmental Protection Agency
-  award: National Overall Excellence Award for Smart Growth Achievement
-  year: 2011
-  image: award-epa.png
+- agency: Missouri Alliance for Historic Preservation
+  award: McReynolds Award for Excellence in  Historic Preservation
+  year: 2006
+  image: award-newmopres.png
 
 - agency: National Trust for Historic Preservation / HUD
   award: Award for Overall Excellence in Historic Preservation
   year: 2010
   image: award-HUD.png
 
-- agency: St. Louis Landmarks Association
+- agency: St. Louis Landmarks<br>Association
   award: Most Enhanced Award for Excellence in Historic Preservation
   year: 2010
   image: award-landmarks.png
-
-- agency: Missouri Alliance for Historic Preservation
-  award: McReynolds Award for Excellence in  Historic Preservation
-  year: 2010
-  image: award-newmopres.png
 
 - agency: National Housing & Rehabilitation Association
   award: J. Timothy Anderson Award for Excellence in Historic Rehabilitation
@@ -30,5 +20,15 @@
 
 - agency: Missouri Alliance for Historic Preservation
   award: McReynolds Award for Excellence in  Historic Preservation
-  year: 2006
+  year: 2010
   image: award-newmopres.png
+
+- agency: U.S. Environmental Protection Agency
+  award: National Overall Excellence Award for Smart Growth Achievement
+  year: 2011
+  image: award-epa.png
+
+- agency: St. Louis Landmarks<br>Association
+  award: Most Enhanced Award for Excellence in Historic Preservation
+  year: 2014
+  image: award-landmarks.png

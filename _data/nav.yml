@@ -1,11 +1,6 @@
 - name: Home
   path: index.html
   section_id: home
-  # children:
-  #   - name: Home default
-  #     path: index.html
-  #   - name: Home alternative
-  #     path: index-alternative.html
 
 - name: Services
   path: services.html
@@ -14,6 +9,10 @@
 - name: About
   path: about.html
   section_id: about
+
+- name: Membership
+  path: membership.html
+  section_id: membership
 
 - name: Portfolio
   path: portfolio.html

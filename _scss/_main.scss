@@ -19,6 +19,13 @@
     }
 }
 
+li.awardBlock {
+    background-color: $gold;
+    border: 1px solid $silver;
+    padding: .5em;
+    text-align: center;
+}
+
 .w75 {
     margin: 0 auto;
     width:75%;
