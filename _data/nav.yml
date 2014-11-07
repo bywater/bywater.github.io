@@ -10,7 +10,7 @@
   path: recognitions.html
   section_id: recognitions
 
-- name: Membership
+- name: Memberships & Affiliations
   path: membership.html
   section_id: membership
 
@@ -23,9 +23,9 @@
   #   - name: Developments single
   #     path: developments-item.html
 
-# - name: Blog
-#   path: blog/
-#   section_id: blog
+- name: News
+  path: news/
+  section_id: news
 
 - name: Contact
   path: contact.html

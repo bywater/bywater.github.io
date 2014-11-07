@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Membership
+title: Memberships & Affiliations
+subtitle: We are active in the larger community development industry
 section_id: membership
 ---
 

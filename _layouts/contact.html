@@ -17,10 +17,11 @@ layout: default
     <div class="row">
         <div class='medium-6 large-6 center em2'>
             {{ content }}
-
-            <a href='aaron@bywaterdevelopment.com'><i class='icon-mail grey'></i>Email</a><br>
-            <a href='tel:314-304-2440'><i class='icon-phone grey'></i> - 314-304-2440</a><br>
-            <a href="https://www.google.com/maps/place/8+Church+St,+Ferguson,+MO+63135/@38.7448417,-90.3047087,15z/data=!4m2!3m1!1s0x87df360484e0f84d:0xac180851dd7e39c0"><i class='icon-map grey'></i> - #8 Church St. St. Louis, MO 63135</a>
+            <a href='{{site.data.contact.contactEmail}}'><i class='icon-mail grey'></i> - Email</a><br>
+            <a href='tel:{{site.data.contact.contactPhone}}'><i class='icon-phone grey'></i> - {{site.data.contact.contactPhone}}</a><br>
+            <a href="{{site.data.contact.mapLink}}"><i class='icon-map grey'></i> - #{{site.data.contact.address}}</a><br>
+            <a href="{{site.data.contact.twitter}}"><i class='icon-twitter grey'></i> - @Bywater_Dev</a><br>
+            <a href="{{site.data.contact.linkedIn}}"><i class='icon-linkedin grey'></i> - LinkedIn</a>
         </div>
     </div>
 </div>
