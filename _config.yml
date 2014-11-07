@@ -100,7 +100,7 @@ sass:
   # The load path for Sass imports. This folder must only contain imports!
   # Read more: http://jekyllrb.com/docs/assets/
 
-  style: :expanded
+  style: :compressed
     # Sass output settings. ! Read more:
     # http://web-design-weekly.com/2014/06/15/different-sass-output-styles/
 

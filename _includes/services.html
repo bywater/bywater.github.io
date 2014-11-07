@@ -1,0 +1,23 @@
+<div class='full'>
+  <div class='row'>
+    <div class='special-title centered-text'>
+      <i class='icon-star'></i>
+      <h2>{{ page.title }}</h2>
+      <p>{{ page.subtitle }}</p>
+      <p class='shortline'></p>
+    </div>
+    <div class='two spacing'></div>
+  </div>
+    <div class="row">
+        <div class='medium-6 large-8 center'>
+            {% for item in site.data.services %}
+                <h2 class="bold icon-text">{{ item.title }}</h2>
+                <div>{{ item.desc }}</div>
+                <div class='two spacing'></div>
+            {% endfor %}
+        </div>
+        <div class='medium-6 large-8 center'>
+            {{ content }}
+        </div>
+    </div>
+</div>
