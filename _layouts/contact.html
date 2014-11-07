@@ -1,14 +1,9 @@
----
-layout: default
-title: Services
-section_id: contact
----
 
 <div class='full'>
   <div class='row'>
     <div class='special-title centered-text'>
-      <i class='icon-location'></i>
-      <h2>Contact</h2>
+      <i class='icon-phone'></i>
+      <h2>{{ page.title }}</h2>
       <p>How can we help?</p>
       <p class='shortline'></p>
     </div>
@@ -17,8 +12,8 @@ section_id: contact
 
 
     <div class="row">
-        <div class='full bg-map'></div>
+        <div class='medium-6 large-6 center'>
+            {{ content }}
+        </div>
     </div>
-    
-    {% include get-in-touch.html %}
 </div>
