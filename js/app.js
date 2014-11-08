@@ -23,17 +23,17 @@ $(document).foundation();
       });
     });
 
-    $(".staff").each(function() {
+    $(".staffbox").each(function() {
 
-      var staff = $(this);
+      var staffbox = $(this);
 
       $(this).find('.staff').each(function() {
         $(this).click(function() {
-          $(staff).find('.staff').removeClass('active');
+          $(staffbox).find('.staff').removeClass('active');
           $(this).addClass('active');
           var target = $(this).attr('data-target');
           // console.log($(staff).find('.staff-intro'));
-          $(staff).find('.staff-intro').removeClass('active');
+          $(staffbox).find('.staff-intro').removeClass('active');
           $(target).addClass('active');
         });
       });
