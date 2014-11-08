@@ -6,18 +6,18 @@
     # <div class='two spacing'></div>
     # <a class='button boxed'>View Features</a>
 
-- image: stl.jpg
-  desc_location: right
-  desc:
-    <h2>Historic preservation</h2>
-    # <p>We specialize in preserving historic neighborhoods</p>
-    # <div class='two spacing'></div>
-    # <a class='button boxed'>Learn More</a>
-
 - image: group-1.jpg
   desc_location: left
   desc:
-    # <h2>Tight knit team</h2>
+    <h2>Tight knit team</h2>
     # <p>We have been at this for a long time</p>
+    # <div class='two spacing'></div>
+    # <a class='button boxed'>Learn More</a>
+
+- image: stl.jpg
+  desc_location: left
+  desc:
+    <h2>Committed to quality</h2>
+    # <p>We specialize in preserving historic neighborhoods</p>
     # <div class='two spacing'></div>
     # <a class='button boxed'>Learn More</a>

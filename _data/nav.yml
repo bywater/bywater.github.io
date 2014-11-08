@@ -1,6 +1,6 @@
-- name: Home
-  path: index.html
-  section_id: home
+# - name: Home
+#   path: index.html
+#   section_id: home
 
 - name: Services
   path: services.html
@@ -10,7 +10,7 @@
   path: recognitions.html
   section_id: recognitions
 
-- name: Memberships & Affiliations
+- name: Memberships
   path: membership.html
   section_id: membership
 

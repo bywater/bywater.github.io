@@ -8,8 +8,8 @@ meta.foundation-mq-small {
 }
 
 meta.foundation-mq-medium {
-  font-family: "/only screen and (min-width:40.063em)/";
-  width: 40.063em;
+  font-family: "/only screen and (min-width:60.063em)/";
+  width: 60.063em;
 }
 
 meta.foundation-mq-large {
@@ -473,7 +473,7 @@ select {
     float: right;
   }
 }
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 60.063em) {
   .medium-push-0 {
     position: relative;
     left: 0%;
@@ -1585,7 +1585,7 @@ select {
     clear: both;
   }
 }
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 60.063em) {
   .medium-block-grid-1 > li {
     width: 100%;
     list-style: none;
@@ -2084,7 +2084,7 @@ button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert
   background-color: #f04124;
 }
 
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 60.063em) {
   button, .button {
     display: inline-block;
   }
@@ -2361,7 +2361,7 @@ button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert
   display: block;
 }
 
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 60.063em) {
   .clearing-main-prev,
   .clearing-main-next {
     position: absolute;
@@ -3359,7 +3359,7 @@ label.error {
 }
 
 /* Styles for screens that are at least 768px; */
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 60.063em) {
   .joyride-tip-guide {
     width: 300px;
     left: inherit;
@@ -3767,7 +3767,7 @@ kbd {
   display: none;
 }
 
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 60.063em) {
   .touch .orbit-container .orbit-prev,
   .touch .orbit-container .orbit-next {
     display: inherit;
@@ -4112,7 +4112,7 @@ dialog, .reveal-modal {
     min-height: 100vh;
   }
 }
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 60.063em) {
   dialog, .reveal-modal {
     left: 50%;
   }
@@ -4128,13 +4128,13 @@ dialog > :first-child, .reveal-modal > :first-child {
 dialog > :last-child, .reveal-modal > :last-child {
   margin-bottom: 0;
 }
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 60.063em) {
   dialog, .reveal-modal {
     margin-left: -40%;
     width: 80%;
   }
 }
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 60.063em) {
   dialog, .reveal-modal {
     top: 6.25rem;
   }
@@ -4155,7 +4155,7 @@ dialog[open] {
   visibility: visible;
 }
 
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 60.063em) {
   dialog, .reveal-modal {
     padding: 1.875rem;
   }
@@ -4176,38 +4176,38 @@ dialog[open] {
     margin-left: 0 !important;
   }
 }
-@media only screen and (min-width: 40.063em) and (min-width: 40.063em) {
+@media only screen and (min-width: 60.063em) and (min-width: 60.063em) {
   dialog.tiny, .reveal-modal.tiny {
     margin-left: -15%;
     width: 30%;
   }
 }
-@media only screen and (min-width: 40.063em) and (min-width: 40.063em) {
+@media only screen and (min-width: 60.063em) and (min-width: 60.063em) {
   dialog.small, .reveal-modal.small {
     margin-left: -20%;
     width: 40%;
   }
 }
-@media only screen and (min-width: 40.063em) and (min-width: 40.063em) {
+@media only screen and (min-width: 60.063em) and (min-width: 60.063em) {
   dialog.medium, .reveal-modal.medium {
     margin-left: -30%;
     width: 60%;
   }
 }
-@media only screen and (min-width: 40.063em) and (min-width: 40.063em) {
+@media only screen and (min-width: 60.063em) and (min-width: 60.063em) {
   dialog.large, .reveal-modal.large {
     margin-left: -35%;
     width: 70%;
   }
 }
-@media only screen and (min-width: 40.063em) and (min-width: 40.063em) {
+@media only screen and (min-width: 60.063em) and (min-width: 60.063em) {
   dialog.xlarge, .reveal-modal.xlarge {
     margin-left: -47.5%;
     width: 95%;
   }
 }
 
-@media only screen and (min-width: 40.063em) and (min-width: 40.063em) {
+@media only screen and (min-width: 60.063em) and (min-width: 60.063em) {
   dialog.full, .reveal-modal.full {
     margin-left: -50vw;
     width: 100vw;
@@ -4693,7 +4693,7 @@ table tfoot tr td {
   padding: 0 0.9375rem;
 }
 
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 60.063em) {
   .tabs.vertical {
     width: 20%;
     float: left;
@@ -4791,7 +4791,7 @@ table tfoot tr td {
   font-weight: normal;
 }
 
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 60.063em) {
   .tooltip > .nub {
     border-color: transparent transparent $charcoal transparent;
     top: -10px;
@@ -4820,8 +4820,8 @@ table tfoot tr td {
   }
 }
 meta.foundation-mq-topbar {
-  font-family: "/only screen and (min-width:40.063em)/";
-  width: 40.063em;
+  font-family: "/only screen and (min-width:60.063em)/";
+  width: 60.063em;
 }
 
 /* Wrapped around .top-bar to contain to grid width */
@@ -4972,7 +4972,7 @@ meta.foundation-mq-topbar {
   width: 100%;
   height: auto;
   display: block;
-  background: #cccccc;
+  background: #fff;
   font-size: 16px;
   margin: 0;
 }
@@ -5187,7 +5187,7 @@ meta.foundation-mq-topbar {
   display: block;
 }
 
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 60.063em) {
   .top-bar {
     background: rgba($white, 0.8);;
     *zoom: 1;
@@ -5431,7 +5431,7 @@ meta.foundation-mq-topbar {
     text-align: justify !important;
   }
 }
-@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+@media only screen and (min-width: 60.063em) and (max-width: 64em) {
   .medium-only-text-left {
     text-align: left !important;
   }
@@ -5448,7 +5448,7 @@ meta.foundation-mq-topbar {
     text-align: justify !important;
   }
 }
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 60.063em) {
   .medium-text-left {
     text-align: left !important;
   }
@@ -5838,7 +5838,7 @@ blockquote p {
   padding: 0 0.0625rem;
 }
 
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 60.063em) {
   h1, h2, h3, h4, h5, h6 {
     line-height: 1.4;
   }
@@ -6022,7 +6022,7 @@ blockquote p {
   height: 2.8125rem;
   top: 0;
 }
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 60.063em) {
   .tab-bar-section {
     text-align: left;
   }
@@ -6165,7 +6165,7 @@ ul.off-canvas-list li a:hover {
   z-index: 1002;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 60.063em) {
   .move-right .exit-off-canvas:hover {
     background: rgba(255, 255, 255, 0.05);
   }
@@ -6194,7 +6194,7 @@ ul.off-canvas-list li a:hover {
   z-index: 1002;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 60.063em) {
   .move-left .exit-off-canvas:hover {
     background: rgba(255, 255, 255, 0.05);
   }
@@ -6244,7 +6244,7 @@ ul.off-canvas-list li a:hover {
   }
 }
 /* medium displays */
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 60.063em) {
   .hide-for-small-only, .show-for-small-up, .hide-for-small, .hide-for-small-down, .show-for-medium-only, .show-for-medium-up, .show-for-medium, .show-for-medium-down, .hide-for-large-only, .hide-for-large-up, .hide-for-large, .show-for-large-down, .hide-for-xlarge-only, .hide-for-xlarge-up, .hide-for-xxlarge-only, .hide-for-xxlarge-up {
     display: inherit !important;
   }
