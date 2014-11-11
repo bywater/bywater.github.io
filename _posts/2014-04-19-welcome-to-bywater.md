@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Welcome to Bywater
-date:   2014-11-10
+date:   2014-11-11
 author:  J. David Dodson & Aaron Burnett
 excerpt: It is a pleasure to present to you this new website.
 ---
