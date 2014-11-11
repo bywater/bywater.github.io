@@ -1,4 +1,4 @@
-- image: neighborhood-02.jpg
+- image: img-02.jpg
   desc_location: center
   desc:
     <h2>Community focused</h2>
@@ -14,7 +14,7 @@
     # <div class='two spacing'></div>
     # <a class='button boxed'>Learn More</a>
 
-- image: stl.jpg
+- image: img-03.jpg
   desc_location: left
   desc:
     <h2>Committed to quality</h2>
