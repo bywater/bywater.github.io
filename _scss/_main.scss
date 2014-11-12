@@ -4,6 +4,11 @@
     padding: 1em;
     //width: 245px;
     text-align: center;
+
+    @include bp(bp-iphone) {
+        text-align:left;
+    }
+
     .bw {
         color: $white;
         display: inline-block;
