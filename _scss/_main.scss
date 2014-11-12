@@ -49,6 +49,11 @@ li.awardBlock {
 
 .center {
     margin: 0 auto;
+
+    @include bp(bp-iphone) {
+       padding-left: .5em;
+       padding-right: .5em;
+    }
 }
 
 .em3 {
