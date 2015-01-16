@@ -62,17 +62,11 @@ paginate_path: "news/page:num"
 # PROSE SETTINGS
 # -----------------------------------------------------------------------------
 
-
-# Turns on Jekyll live previews. The url is the homepage of the live site.
-
-#relativeLinks: "http://prose.github.io/starter/links.jsonp"
-#rooturl: _posts
-
 # PROSE allows you to manage .md files
 # ! Read more: https://github.com/prose/prose/wiki/Prose-Configuration
 
 prose:
-  rooturl: '_posts'
+  # rooturl: '_posts' # User can only see this directory
   siteurl: 'http://bywaterdevelopment.com'
   # relativeLinks: 'http://bywaterdevelopment.com/links.jsonp'
   media: 'images'
