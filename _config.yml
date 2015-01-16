@@ -71,11 +71,21 @@ prose:
   # relativeLinks: 'http://bywaterdevelopment.com/links.jsonp'
   media: 'images'
   ignore:
-    - index.md
+    - index.html
     - _config.yml
-    - /_layouts
-    - /_includes
-    - /_scss
+    - _layouts
+    - _includes
+    - _scss
+    - fonts
+    - js
+    - css
+    - .editorconfig
+    - .gitignore
+    - .travis.yml
+    - CNAME
+    - favicon.ico
+    - LICENSE
+    - 404.md
 
 
 
