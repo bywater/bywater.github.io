@@ -2,9 +2,9 @@
   desc_location: center
   desc:
     <h2>Community focused</h2>
-    # <p>We only build what you will be proud of</p>
-    # <div class='two spacing'></div>
-    # <a class='button boxed'>View Features</a>
+    <p>We only build what you will be proud of</p>
+    <div class='two spacing'></div>
+    <a class='button boxed'>View Features</a>
 
 - image: group-1.jpg
   desc_location: left
