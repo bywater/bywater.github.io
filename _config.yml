@@ -75,6 +75,7 @@ prose:
     - _config.yml
     - _layouts
     - _includes
+    - _portfolio
     - _scss
     - fonts
     - js
