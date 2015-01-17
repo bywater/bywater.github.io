@@ -50,13 +50,28 @@ timezone: America/Chicago
 # Set the timezone. ! Read more: http://jekyllrb.com/docs/configuration/
 
 
-
-# markdown: redcarpet
-#pygments: true
+# -----------------------------------------------------------------------------
+# PAGINATION
+# -----------------------------------------------------------------------------
 
 excerpt_separator: <!--more-->
 paginate: 3
 paginate_path: "news/page:num"
+
+# -----------------------------------------------------------------------------
+# DEFAULTS
+# -----------------------------------------------------------------------------
+
+# Default front matter settings
+# ! Read more: http://jekyllrb.com/docs/configuration/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
 
 # -----------------------------------------------------------------------------
 # PROSE SETTINGS
@@ -88,7 +103,23 @@ prose:
     - favicon.ico
     - LICENSE
     - 404.md
-
+  metadata:
+    _posts:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "Excerpt"
+        field:
+          element: "text"
+          label: "Exercpt"
+          value: ""
+      - name: "Author"
+        field:
+          element: "text"
+          label: "Author"
+          value: ""
 
 
 
@@ -105,21 +136,21 @@ prose:
 # Read more: http://jekyllrb.com/docs/collections/
 # Read more: http://www.sitepoint.com/getting-started-jekyll-collections/
 
-collections:
-    clients:
-        output: true
-
-    portfolio:
-        output: true
-
-    slides:
-        output: true
-
-    staff:
-        output: true
-
-    testimonials:
-        output: true
+# collections:
+#     clients:
+#         output: true
+#
+#     portfolio:
+#         output: true
+#
+#     slides:
+#         output: true
+#
+#     staff:
+#         output: true
+#
+#     testimonials:
+#         output: true
 
 
 
