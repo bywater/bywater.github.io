@@ -110,16 +110,21 @@ prose:
           element: "text"
           label: "Title"
           value: ""
-      - name: "Excerpt"
+      - name: "excerpt"
         field:
           element: "text"
           label: "Exercpt"
           value: ""
-      - name: "Author"
+      - name: "author"
         field:
           element: "text"
           label: "Author"
           value: ""
+      - name: "Date"
+        field:
+          element: "text"
+          label: "Date"
+          value: "yyyy-mm-dd"
 
 
 
