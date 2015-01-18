@@ -72,6 +72,8 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      excerpt: "Write a teaser for this article here..."
+      author: "Bywater team"
 
 # -----------------------------------------------------------------------------
 # PROSE SETTINGS
@@ -120,12 +122,6 @@ prose:
           element: "text"
           label: "Author"
           value: ""
-      - name: "Date"
-        field:
-          element: "text"
-          label: "Date"
-          value: "yyyy-mm-dd"
-
 
 
 # -----------------------------------------------------------------------------
