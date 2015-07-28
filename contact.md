@@ -21,10 +21,6 @@ St. Louis, MO 63135-2409
 [aaron@bywaterdevelopment.com](mailto:aaron@bywaterdevelopment.com)  
 314.304.2440  
 
-**Carl Shepard**, Development Coordinator  
-[carl@bywaterdevelopment.com](mailto:carl@bywaterdevelopment.com )  
-314.374.2903  
-
 **Elizabeth Beckerle**, Development Coordinator  
 [elizabeth@bywaterdevelopment.com](mailto:elizabeth@bywaterdevelopment.com)  
 314.330.3181  
