@@ -13,13 +13,6 @@ staff:
     desc: |
       Elizabeth comes to Bywater with a background in architecture, construction, and community development.  She earned a Master’s of Architecture from the University of Kansas where she spent her ultimate program year as part of an intensive design-build studio designing, budgeting, and constructing an affordable, sustainable house in Kansas City, KS.  She then moved to rural West Virginia with the AmeriCorps national service program where she volunteered as a community coordinator and historic preservationist.  She brings a dynamic set of skills and a passion for strengthening communities to the Bywater team.
 
-  - name: Carl Shepard
-    image: carl-shepard-2.jpg
-    email: carl@bywaterdevelopment.com
-    position: Development Coordinator
-    desc: |
-      Carl brings to Bywater a proven background in management along with superb organizational skills. He graduated from Webster University with a bachelor's degree in Business Management and also has a very solid set of professional experiences.  For over five years he was a Firefighter for the Town of Vail, CO.  Through this he developed a strong work ethic, an acute sense of personal responsibility, and the high value of being a contributing part of a team that works under immense pressures. In addition, Carl also brings over ten years of experience in retail management, which equips him to be an effective leader and coordinator of Bywater’s projects and activities.  Carl’s diverse set of previous career experiences and educational track make him a valuable member of the Bywater team and enables the organization to manage the complicated details of developing strong communities.
-
   - name: Aaron Burnett
     image: aaron-burnett.jpg
     email: aaron@bywaterdevelopment.com
@@ -28,3 +21,17 @@ staff:
       Aaron is one of the founding members of Bywater Development Group.  Aaron possesses 15 years’ experience in housing and community development, with special expertise in structured finance.  Aaron’s has substantial experience utilizing Affordable Housing Tax Credits, Historic Rehabilitation Tax Credits, and a variety of other federal, state, and local funding sources, including a variety of state tax credits,  Community Development Block Grant, and HOME Investment Partnership Program funds.
 
       He has been involved in the successful development of over 400 high quality apartments and homes.  Through his experience Aaron brings to Bywater a proven ability to work in partnership and collaboration with a wide range of development partners including non-profits, for-profits and governmental entities.  This experience helps the organization in planning, financing and implementing positive and transformative developments.
+
+  # - name:
+  #   image: bywater-logo-square.png
+  #   email:
+  #   position:
+  #   desc:
+
+  
+  # - name: Carl Shepard
+  #   image: carl-shepard-2.jpg
+  #   email: carl@bywaterdevelopment.com
+  #   position: Development Coordinator
+  #   desc: |
+  #     Carl brings to Bywater a proven background in management along with superb organizational skills. He graduated from Webster University with a bachelor's degree in Business Management and also has a very solid set of professional experiences.  For over five years he was a Firefighter for the Town of Vail, CO.  Through this he developed a strong work ethic, an acute sense of personal responsibility, and the high value of being a contributing part of a team that works under immense pressures. In addition, Carl also brings over ten years of experience in retail management, which equips him to be an effective leader and coordinator of Bywater’s projects and activities.  Carl’s diverse set of previous career experiences and educational track make him a valuable member of the Bywater team and enables the organization to manage the complicated details of developing strong communities.

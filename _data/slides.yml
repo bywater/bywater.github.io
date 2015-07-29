@@ -6,10 +6,10 @@
     # <div class='two spacing'></div>
     # <a class='button boxed'>View Features</a>
 
-- image: group-1.jpg
-  desc_location: left
-  desc:
-    <h2>Tight knit team</h2>
+# - image: group-1.jpg
+#   desc_location: left
+#   desc:
+#     <h2>Tight knit team</h2>
     # <p>We have been at this for a long time</p>
     # <div class='two spacing'></div>
     # <a class='button boxed'>Learn More</a>
