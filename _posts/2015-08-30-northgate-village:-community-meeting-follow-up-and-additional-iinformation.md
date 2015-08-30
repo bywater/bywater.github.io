@@ -3,7 +3,7 @@ On Tuesday, August 25th we had the opportunity to hold an informational meeting 
 ```
 [Overall Development Concept Presentation - From August 25th Community Meeting](/northgate village community presentation.pdf)
 
-            [Narrative Description of Development](/northgate project_narrative_082915.pdf)
+[Narrative Description of Development](/northgate project_narrative_082915.pdf)
 ```
 
 Also, we are working on additional information that was requested by those that were in attendance and we will be posting more details in the near future, so please check back to this site soon for additional detail. This updated information will include a mapping exhibit showing all the selected properties for redevelopment (presently we are finalizing negotiations with a few owners of vacant properties). Again, we wish to remind everyone that our targeted properties are all currently vacant lots and buildings and this development will not create any form of displacement for existing neighborhood residents. Also, additional information will be added pertaining to the lease/purchase program that we will be utilizing on this development.
