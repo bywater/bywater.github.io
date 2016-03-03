@@ -23,8 +23,6 @@ St. Louis, MO 63135-2409
 [aaron@bywaterdevelopment.com](mailto:aaron@bywaterdevelopment.com)
 314.304.2440
 
-**Elizabeth Beckerle**, Development Coordinator
-[elizabeth@bywaterdevelopment.com](mailto:elizabeth@bywaterdevelopment.com)
 &nbsp;
 
 ### Connect
