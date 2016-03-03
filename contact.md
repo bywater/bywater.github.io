@@ -23,14 +23,14 @@ St. Louis, MO 63135-2409
 [aaron@bywaterdevelopment.com](mailto:aaron@bywaterdevelopment.com)
 314.304.2440
 
-&nbsp;
 
 ### Connect
 
 Follow us on Twitter and LinkedIn
 
-[**{: .icon-twitter.grey} - @Bywater_Dev]({{site.data.contact.twitter}})
-[**{: .icon-linkedin.grey} - LinkedIn]({{site.data.contact.linkedIn}})
+<a href="{{site.data.contact.twitter}}"><i class='icon-twitter grey'></i> - @Bywater_Dev</a><br>
+<a href="{{site.data.contact.linkedIn}}"><i class='icon-linkedin grey'></i> - LinkedIn</a>
+
 
 ### Special note about our location
 
