@@ -13,4 +13,3 @@ As means of staying current on emerging trends and best practices in the afforda
 1. [Oklahoma Coalition for Affordable Housing](http://affordablehousingcoalition.org)
 1. [Missouri Workforce Housing Association](http://www.moworkforcehousing.com/)
 1. [Urban Land Institute](http://uli.org/)
-1. [U.S. Green Building Council - MO Gateway Chapter](http://www.usgbc-mogateway.org/)
