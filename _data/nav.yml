@@ -3,19 +3,19 @@
 #   section_id: home
 
 - name: Services
-  path: services.html
+  path: services
   section_id: services
 
 - name: Recognitions
-  path: recognitions.html
+  path: recognitions
   section_id: recognitions
 
 - name: Memberships
-  path: membership.html
+  path: membership
   section_id: membership
 
 - name: Developments
-  path: developments.html
+  path: developments
   section_id: developments
   # children:
   #   - name: Developments
@@ -28,5 +28,5 @@
   section_id: news
 
 - name: Contact
-  path: contact.html
+  path: contact
   section_id: contact
