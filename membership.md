@@ -10,6 +10,6 @@ As means of staying current on emerging trends and best practices in the afforda
 
 1. [National Council of State Housing Finance Agencies](http://www.ncsha.org/)
 1. [Illinois Housing Council](http://www.ilhousing.org/)
-1. [Oklahoma Coalition for Affordable Housing](http://affordablehousingcoalition.org)
+1. [Kentucky Affordable Housing Coalition](https://kyaffordablehousing.org/)
 1. [Missouri Workforce Housing Association](http://www.moworkforcehousing.com/)
-1. [Urban Land Institute](http://uli.org/)
+1. [Citizens for Modern Transit](https://cmt-stl.org/)
