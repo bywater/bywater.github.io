@@ -183,7 +183,7 @@ sass:
 
 gems:
 # Plugin list
-  - jemoji # Emoji please!
+  # - jemoji # Emoji please!
   - jekyll-sitemap
   # Create a sitemap using the official Jekyll sitemap gem
   # If the sitemap.xml doesn't generate in the \_site folder ensure \_config.yml doesn't have safe: true. That prevents all plugins from working.
