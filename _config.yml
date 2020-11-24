@@ -242,7 +242,7 @@ port: 6999
 exclude:
 # Exclude (ignore) these files in your Producion build
 
-  - Gemfile
+  # - Gemfile
   - Gemfile.lock
   - LICENSE
   - README.md
